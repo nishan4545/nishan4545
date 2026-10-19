@@ -1,6 +1,11 @@
 <div align="center">
 
-![Nishan — Full Stack Developer working with AI document processing. Animated illustration of connected software systems.](./assets/hero.gif)
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/hero-mobile-preview.png" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/hero-preview.png" />
+  <source media="(max-width: 600px)" srcset="./assets/hero-mobile.gif" />
+  <img src="./assets/hero.gif" width="1200" alt="Nishan — Full Stack Developer working with AI document processing. Animated illustration of connected software systems." />
+</picture>
 
 **Full Stack Developer at TechSmew Technologies · Coimbatore, India**
 
@@ -18,7 +23,12 @@ My experience spans business applications, microservices, OCR, and cloud deploym
 
 <br />
 
-![Areas I work across: React interfaces, backend services, AI document processing, and cloud deployment.](./assets/workflow.gif)
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/workflow-mobile-preview.png" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/workflow-preview.png" />
+  <source media="(max-width: 600px)" srcset="./assets/workflow-mobile.gif" />
+  <img src="./assets/workflow.gif" width="1200" alt="Areas I work across: React interfaces, backend services, AI document processing, and cloud deployment." />
+</picture>
 
 <br />
 
@@ -36,7 +46,12 @@ My experience spans business applications, microservices, OCR, and cloud deploym
 
 <br />
 
-![Animated focus panel: full-stack applications, backend microservices, AI document processing, and cloud deployment.](./assets/focus.gif)
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/focus-mobile-preview.png" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/focus-preview.png" />
+  <source media="(max-width: 600px)" srcset="./assets/focus-mobile.gif" />
+  <img src="./assets/focus.gif" width="1200" alt="Animated focus panel: full-stack applications, backend microservices, AI document processing, and cloud deployment." />
+</picture>
 
 <br />
 

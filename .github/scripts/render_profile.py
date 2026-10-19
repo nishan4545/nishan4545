@@ -39,15 +39,15 @@ def dot(d,pos,r,color):
     x,y=pos; d.ellipse(xy((x-r,y-r,x+r,y+r)),fill=color)
 def blend(a,b,t): return tuple(round(x*(1-t)+y*t) for x,y in zip(a,b))
 
-def background(height):
+def background(height,width=W):
     small=Image.new('RGB',(300,max(1,height//4))); px=small.load()
     for y in range(small.height):
         for x in range(small.width):
             a=math.exp(-(((x-240)/90)**2+((y-12)/65)**2))
             b=math.exp(-(((x-150)/100)**2+((y-100)/70)**2))
             px[x,y]=(int(9+16*a),int(15+9*a+8*b),int(29+30*a+10*b))
-    img=small.resize((W*S,height*S),Image.Resampling.BICUBIC)
-    rounded(ImageDraw.Draw(img),(.5,.5,W-1,height-1),None,(43,55,77),22)
+    img=small.resize((width*S,height*S),Image.Resampling.BICUBIC)
+    rounded(ImageDraw.Draw(img),(.5,.5,width-1,height-1),None,(43,55,77),22)
     return img
 
 def path_point(points,progress):
@@ -66,7 +66,7 @@ def signal(d,points,progress,color):
 
 def save_animation(name,frames,durations):
     # One shared palette keeps the stationary background and text stable.
-    samples=Image.new('RGB',(W,frames[0].height*4))
+    samples=Image.new('RGB',(frames[0].width,frames[0].height*4))
     for i,idx in enumerate([0,len(frames)//4,len(frames)//2,3*len(frames)//4]):
         samples.paste(frames[idx],(0,i*frames[0].height))
     palette=samples.quantize(colors=224,method=Image.Quantize.MEDIANCUT)
@@ -142,11 +142,11 @@ def workflow():
         frames.append(img.resize((W,height),Image.Resampling.LANCZOS))
     save_animation('workflow.gif',frames,110)
 
-def focus():
-    height=200; base=background(height); d=ImageDraw.Draw(base)
+def focus(canvas_width=W):
+    height=200; base=background(height,canvas_width); d=ImageDraw.Draw(base)
     for i,col in enumerate([(243,130,130),(242,199,114),(107,205,162)]): dot(d,(28+i*19,25),4,col)
     txt(d,(99,16),'nishan / focus',13,MUTED,mono=True)
-    line(d,[(20,46),(1180,46)],(36,49,69))
+    line(d,[(20,46),(canvas_width-20,46)],(36,49,69))
     txt(d,(30,69),'current_focus',15,CYAN,mono=True)
     txt(d,(30,153),'FULL STACK DEVELOPMENT  /  PRACTICAL AI',12,MUTED,mono=True)
     frames=[]; durations=[]
@@ -156,14 +156,72 @@ def focus():
             txt(d,(30,98),'> '+value,27,WHITE,mono=True)
             width=d.textlength('> '+value,font=font(27,mono=True))/S
             rounded(d,(32+width,101,45+width,128),CYAN,radius=1)
-            frames.append(img.resize((W,height),Image.Resampling.LANCZOS)); durations.append(75)
+            frames.append(img.resize((canvas_width,height),Image.Resampling.LANCZOS)); durations.append(75)
         for blink in range(4):
             img=base.copy(); d=ImageDraw.Draw(img)
             txt(d,(30,98),'> '+message,27,WHITE,mono=True)
             width=d.textlength('> '+message,font=font(27,mono=True))/S
             if blink%2==0: rounded(d,(32+width,101,45+width,128),CYAN,radius=1)
-            frames.append(img.resize((W,height),Image.Resampling.LANCZOS)); durations.append(430)
-    save_animation('focus.gif',frames,durations)
+            frames.append(img.resize((canvas_width,height),Image.Resampling.LANCZOS)); durations.append(430)
+    filename='focus.gif' if canvas_width==W else 'focus-mobile.gif'
+    save_animation(filename,frames,durations)
+    # Reduced-motion visitors get a complete phrase rather than a typing frame.
+    frames[-1].save(ASSETS/filename.replace('.gif','-preview.png'))
+
+def mobile_hero():
+    width,height=600,490; base=background(height,width); d=ImageDraw.Draw(base)
+    rounded(d,(28,24,326,57),(18,31,47),(42,62,77),16)
+    dot(d,(47,40),3,CYAN); txt(d,(62,30),'NISHAN4545 / DEVELOPER',13,CYAN,mono=True)
+    txt(d,(25,66),'NISHAN',72,WHITE,bold=True)
+    txt(d,(30,158),'FULL STACK + AI',26,CYAN,bold=True)
+    txt(d,(30,202),'From interfaces to intelligence.',20)
+    cx,cy=300,361
+    for r in [73,100]: d.ellipse(xy((cx-r,cy-r,cx+r,cy+r)),outline=(46,59,84),width=2)
+    wires=[([(77,298),(162,298),(162,335),(251,335)],BLUE),
+           ([(522,298),(438,298),(438,335),(349,335)],VIOLET),
+           ([(77,422),(162,422),(162,386),(251,386)],CYAN),
+           ([(522,422),(438,422),(438,386),(349,386)],AMBER)]
+    for points,col in wires:
+        line(d,points,blend(NAVY,col,.4),2); dot(d,points[0],5,col)
+    for x,y,label,col in [(63,268,'UI',BLUE),(493,268,'API',VIOLET),(63,439,'AI',CYAN),(484,439,'DATA',AMBER)]:
+        txt(d,(x,y),label,14,col,mono=True)
+    frames=[]
+    for n in range(64):
+        t=n/64; img=base.copy(); d=ImageDraw.Draw(img)
+        for i,(points,col) in enumerate(wires): signal(d,points,t+i*.25,col)
+        for i,(r,col) in enumerate([(73,BLUE),(100,CYAN)]):
+            a=2*math.pi*(t*(1 if i==0 else -1)+i*.25)
+            dot(d,(cx+r*math.cos(a),cy+r*math.sin(a)),4,col)
+        rounded(d,(249,310,351,412),(15,25,44),CYAN,20,2)
+        line(d,[(286,345),(269,361),(286,377)],WHITE,3)
+        line(d,[(314,345),(331,361),(314,377)],WHITE,3)
+        line(d,[(307,340),(294,381)],CYAN,3)
+        frames.append(img.resize((width,height),Image.Resampling.LANCZOS))
+    save_animation('hero-mobile.gif',frames,100)
+
+def mobile_workflow():
+    width,height=600,320; base=background(height,width); d=ImageDraw.Draw(base)
+    txt(d,(25,16),'THE LAYERS I WORK ACROSS',13,MUTED,mono=True)
+    nodes=[(24,52,'01','INTERFACES','React · HTML · CSS',BLUE),
+           (324,52,'02','SERVICES','Node.js · FastAPI',VIOLET),
+           (24,194,'03','DOCUMENT AI','OCR · Model routing',CYAN),
+           (324,194,'04','DELIVERY','AWS · Docker · Git',AMBER)]
+    for x,y,num,title,sub,col in nodes:
+        rounded(d,(x,y,x+252,y+102),(15,25,42),(43,59,82),13)
+        txt(d,(x+16,y+12),num,14,col,mono=True)
+        txt(d,(x+16,y+37),title,19,WHITE,bold=True)
+        txt(d,(x+16,y+72),sub,14,MUTED)
+    paths=[[(278,103),(322,103)],[(450,157),(450,175),(150,175),(150,191)],[(278,245),(322,245)]]
+    for path in paths: line(d,path,(46,61,83),2)
+    frames=[]
+    for n in range(48):
+        img=base.copy(); d=ImageDraw.Draw(img); t=n/48
+        for i,path in enumerate(paths): signal(d,path,t-i*.2,[BLUE,VIOLET,CYAN][i])
+        for i,(x,y,_,__,___,col) in enumerate(nodes):
+            strength=.25+.6*(.5+.5*math.sin(2*math.pi*(t-i*.25)))
+            line(d,[(x+17,y+101),(x+235,y+101)],blend((27,40,58),col,strength),2)
+        frames.append(img.resize((width,height),Image.Resampling.LANCZOS))
+    save_animation('workflow-mobile.gif',frames,110)
 
 def button():
     (ASSETS/'linkedin.svg').write_text('''<svg xmlns="http://www.w3.org/2000/svg" width="218" height="42" viewBox="0 0 218 42">
@@ -174,4 +232,5 @@ def button():
 <path d="M188 26L198 16M189 16h9v9" fill="none" stroke="#5de5d7" stroke-width="1.6"/>
 </svg>''',encoding='utf-8')
 
-if __name__=='__main__': hero(); workflow(); focus(); button()
+if __name__=='__main__':
+    hero(); workflow(); focus(); mobile_hero(); mobile_workflow(); focus(600); button()
