@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="218" height="42" viewBox="0 0 218 42">
+<rect x=".5" y=".5" width="217" height="41" rx="10" fill="#101c2d" stroke="#33465f"/>
+<rect x="14" y="12" width="18" height="18" rx="3" fill="#63a3ff"/>
+<text x="23" y="25.5" fill="#09101d" font-family="Arial,sans-serif" font-size="14" font-weight="bold" text-anchor="middle">in</text>
+<text x="45" y="26" fill="#edf3ff" font-family="Arial,sans-serif" font-size="13" font-weight="bold">LET'S CONNECT</text>
+<path d="M188 26L198 16M189 16h9v9" fill="none" stroke="#5de5d7" stroke-width="1.6"/>
+</svg>

@@ -1,41 +1,59 @@
-Hi, I'm Nishan 👋
+<div align="center">
 
-### Full Stack Developer · AI Document Processing
+![Nishan — Full Stack Developer working with AI document processing. Animated illustration of connected software systems.](./assets/hero.gif)
 
-I'm a developer at **TechSmew Technologies**, based in **Coimbatore, India**. I work on business applications, backend microservices, and AI document-processing workflows.
+**Full Stack Developer at TechSmew Technologies · Coimbatore, India**
 
-My work brings together **React interfaces, Node.js and Python services, databases, and AI model integration**.
+<a href="https://www.linkedin.com/in/nishan45/"><img src="./assets/linkedin.svg" alt="Connect with Nishan on LinkedIn" width="218" height="42" /></a>
 
-[LinkedIn](https://www.linkedin.com/in/nishan45/) · [My repositories](https://github.com/nishan4545?tab=repositories)
+</div>
 
----
+<br />
 
-## 🛠️ Technologies I work with
+## Interfaces. Services. Intelligence.
 
-| Area | Technologies |
-| --- | --- |
-| Languages | JavaScript, Python, Java |
-| Frontend | React, HTML, CSS, Vite, Tailwind CSS, Redux |
-| Backend & messaging | Node.js, FastAPI, Apache Kafka, Keycloak |
-| Databases & search | PostgreSQL, MySQL, MongoDB, Redis, OpenSearch |
-| AI & document processing | PaddleOCR, Qwen2.5-VL, vLLM |
-| Cloud & development | AWS, Docker, Git, Bash |
-| AI coding tools | Claude Code, Codex, Google Antigravity |
+Hi, I'm **Nishan**. I work on full-stack applications and AI document-processing workflows, connecting **React interfaces**, **backend services**, **databases**, and **AI models**.
 
-## 💼 Company project experience
+My experience spans business applications, microservices, OCR, and cloud deployment. I'm interested in the engineering that turns these parts into useful software.
 
-- **Astroid:** Development contributions to a business platform covering HRM, CRM, and project management, using a microservices architecture.
-- **Bhoomi-OCR:** Work on OCR and structured extraction for historical land records, including typed English and handwritten Marathi/Devanagari, with human review workflows.
+<br />
 
-These are company projects; their source code is not hosted in my public repositories.
+![Areas I work across: React interfaces, backend services, AI document processing, and cloud deployment.](./assets/workflow.gif)
 
-## 📌 Public repositories
+<br />
 
-- [**Model_Quantization**](https://github.com/nishan4545/Model_Quantization) — Python repository.
-- [**Portfolio project**](https://github.com/nishan4545/potfolioo) — A React/Vite portfolio website.
+## Engineering toolkit
 
-## 🤝 Let's connect
+| Layer | Technologies I work with |
+| :--- | :--- |
+| **Languages** | JavaScript · Python · Java |
+| **Interfaces** | React · HTML · CSS · Vite · Tailwind CSS · Redux |
+| **Services & messaging** | Node.js · FastAPI · Apache Kafka · Keycloak |
+| **Data & search** | PostgreSQL · MySQL · MongoDB · Redis · OpenSearch |
+| **Document AI** | PaddleOCR · Qwen2.5-VL · vLLM |
+| **Cloud & delivery** | AWS · Docker · Git · Bash |
+| **AI development tools** | Claude Code · Codex · Google Antigravity |
 
-I'm interested in conversations about full-stack development, backend systems, and practical AI applications. Feedback and code reviews on my public projects are welcome.
+<br />
 
-[Connect with me on LinkedIn](https://www.linkedin.com/in/nishan45/)
+![Animated focus panel: full-stack applications, backend microservices, AI document processing, and cloud deployment.](./assets/focus.gif)
+
+<br />
+
+## Beyond the stack
+
+- **Current work:** Full-stack development and AI document processing at TechSmew Technologies.
+- **Background:** B.Sc. in Physics; now working in software development.
+- **Interests:** Backend systems, model integration, and practical AI applications.
+
+<br />
+
+<div align="center">
+
+**Let's talk about software, systems, and AI.**
+
+[Connect on LinkedIn](https://www.linkedin.com/in/nishan45/)
+
+<sub>Nishan · @nishan4545</sub>
+
+</div>
