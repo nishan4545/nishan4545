@@ -19,7 +19,7 @@ def render(mobile=False):
   x=w/2-170+(n/99)*340
   dot(d,(x,h-24),3,BLUE)
   frames.append(im.resize((w,h),Image.Resampling.LANCZOS))
- name='hero-mobile.gif' if mobile else 'hero.gif'
+ name='intro-light-mobile.gif' if mobile else 'intro-light.gif'
  save_animation(name,frames,85)
  frames[40].save(Path(__file__).resolve().parents[2]/'assets'/name.replace('.gif','-preview.png'))
 if __name__=='__main__':

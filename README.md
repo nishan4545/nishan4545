@@ -1,15 +1,15 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/hero-mobile-preview.png" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/hero-preview.png" />
-  <source media="(max-width: 600px)" srcset="./assets/hero-mobile.gif" />
-  <img src="./assets/hero.gif" width="1200" alt="Hi, I'm Nishan. Full Stack Developer. AI workflows, backend systems, data, and cloud." />
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/intro-light-mobile-preview.png" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/intro-light-preview.png" />
+  <source media="(max-width: 600px)" srcset="./assets/intro-light-mobile.gif" />
+  <img src="./assets/intro-light.gif" width="1200" alt="Hi, I'm Nishan. Full Stack Developer. AI workflows, backend systems, data, and cloud." />
 </picture>
 
 <img src="./assets/developer.png" width="420" alt="An illustrated developer at a white desk with a monitor, laptop, and plant." />
 
-**Full Stack Developer at TechSmew Technologies · Coimbatore, India**
+**Full Stack Developer · Coimbatore, India**
 
 [Connect on LinkedIn](https://www.linkedin.com/in/nishan45/)
 
