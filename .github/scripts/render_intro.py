@@ -9,7 +9,7 @@ def render(mobile=False):
  txt(d,(w/2,48 if mobile else 40),"Hi, I'm Nishan.",49 if mobile else 62,INK,True,anchor='mt')
  txt(d,(w/2,122 if mobile else 131),'FULL STACK DEVELOPER',17 if mobile else 18,BLUE,mono=True,anchor='mt')
  line(d,[(w/2-170,h-24),(w/2+170,h-24)],(228,235,248),1)
- phrases=['Interfaces. Systems. Intelligence.','React. Backend services. Applied AI.']
+ phrases=['AI workflows. Backend systems.','Models. Data. Cloud. Connected.']
  frames=[]
  for n in range(100):
   im=base.copy(); d=ImageDraw.Draw(im)
