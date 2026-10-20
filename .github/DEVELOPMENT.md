@@ -1,6 +1,6 @@
 # Profile maintenance
 
-The GitHub profile README uses a white animated introduction, a greeting-to-work character loop, and pastel toolkit labels. It has no separate portfolio website, hover effects, floating labels, or CSS shadow styling.
+The GitHub profile README uses a white animated introduction, a greeting-to-work character loop, and an Engineering Focus section organized around six core engineering areas. It has no separate portfolio website, hover effects, floating labels, or CSS shadow styling.
 
 ## Intro animations
 

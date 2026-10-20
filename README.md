@@ -20,59 +20,18 @@
 
 <br />
 
-## Practical AI. Connected systems.
+## Engineering Focus
 
-I work on **AI document processing**, **backend services**, and **cloud integrations**. My interests include OCR, model integration, and the engineering that connects AI to useful applications.
+I design and build scalable software systems, AI-powered applications, and reliable backend architectures. My work focuses on system design, distributed systems, document intelligence, and integrating AI into practical, real-world workflows.
 
-<br />
+### Core Engineering Areas
 
-## Engineering toolkit
-
-**AI development tools**
-
-<p>
-  <img src="./assets/toolkit/claude-code.svg" alt="Claude Code" height="34" />
-  <img src="./assets/toolkit/codex.svg" alt="Codex" height="34" />
-  <img src="./assets/toolkit/google-antigravity.svg" alt="Google Antigravity" height="34" />
-</p>
-
-**Document AI**
-
-<p>
-  <img src="./assets/toolkit/paddleocr.svg" alt="PaddleOCR" height="34" />
-  <img src="./assets/toolkit/qwen2-5-vl.svg" alt="Qwen2.5-VL" height="34" />
-  <img src="./assets/toolkit/vllm.svg" alt="vLLM" height="34" />
-</p>
-
-**Backend & messaging**
-
-<p>
-  <img src="./assets/toolkit/python.svg" alt="Python" height="34" />
-  <img src="./assets/toolkit/java.svg" alt="Java" height="34" />
-  <img src="./assets/toolkit/node-js.svg" alt="Node.js" height="34" />
-  <img src="./assets/toolkit/fastapi.svg" alt="FastAPI" height="34" />
-  <img src="./assets/toolkit/apache-kafka.svg" alt="Apache Kafka" height="34" />
-  <img src="./assets/toolkit/keycloak.svg" alt="Keycloak" height="34" />
-</p>
-
-**Data & search**
-
-<p>
-  <img src="./assets/toolkit/postgresql.svg" alt="PostgreSQL" height="34" />
-  <img src="./assets/toolkit/mysql.svg" alt="MySQL" height="34" />
-  <img src="./assets/toolkit/mongodb.svg" alt="MongoDB" height="34" />
-  <img src="./assets/toolkit/redis.svg" alt="Redis" height="34" />
-  <img src="./assets/toolkit/opensearch.svg" alt="OpenSearch" height="34" />
-</p>
-
-**Cloud & delivery**
-
-<p>
-  <img src="./assets/toolkit/aws.svg" alt="AWS" height="34" />
-  <img src="./assets/toolkit/docker.svg" alt="Docker" height="34" />
-  <img src="./assets/toolkit/git.svg" alt="Git" height="34" />
-  <img src="./assets/toolkit/bash.svg" alt="Bash" height="34" />
-</p>
+- **System Design & Architecture** — Scalable systems, service boundaries, API design, and architectural trade-offs.
+- **Backend Engineering** — Microservices, asynchronous processing, event-driven architecture, and data consistency.
+- **AI Engineering** — Document intelligence, OCR pipelines, model integration, and AI-powered automation.
+- **Distributed Systems** — Messaging, caching, concurrency, fault tolerance, and service communication.
+- **Cloud & Infrastructure** — Containerization, deployment, observability, and production reliability.
+- **Engineering Quality** — Testing, performance optimization, security, and maintainable code.
 
 <br />
 
