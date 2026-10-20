@@ -1,19 +1,17 @@
 <div align="center">
 
-<a href="https://nishan4545.github.io/nishan4545/">
 <picture>
   <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/hero-mobile-preview.png" />
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/hero-preview.png" />
   <source media="(max-width: 600px)" srcset="./assets/hero-mobile.gif" />
   <img src="./assets/hero.gif" width="1200" alt="Hi, I'm Nishan. Full Stack Developer. Interfaces, systems, and intelligence." />
 </picture>
-</a>
 
-<a href="https://nishan4545.github.io/nishan4545/"><img src="./docs/assets/developer.png" width="420" alt="An illustrated developer at a white desk with a monitor, laptop, and plant." /></a>
+<img src="./assets/developer.png" width="420" alt="An illustrated developer at a white desk with a monitor, laptop, and plant." />
 
 **Full Stack Developer at TechSmew Technologies · Coimbatore, India**
 
-[**Explore my interactive profile ↗**](https://nishan4545.github.io/nishan4545/) &nbsp; · &nbsp; [Connect on LinkedIn](https://www.linkedin.com/in/nishan45/)
+[Connect on LinkedIn](https://www.linkedin.com/in/nishan45/)
 
 </div>
 
