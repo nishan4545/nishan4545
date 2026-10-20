@@ -1,15 +1,19 @@
 <div align="center">
 
+<a href="https://nishan4545.github.io/nishan4545/">
 <picture>
   <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/hero-mobile-preview.png" />
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/hero-preview.png" />
   <source media="(max-width: 600px)" srcset="./assets/hero-mobile.gif" />
-  <img src="./assets/hero.gif" width="1200" alt="Nishan — Full Stack Developer working with AI document processing. Animated illustration of connected software systems." />
+  <img src="./assets/hero.gif" width="1200" alt="Hi, I'm Nishan. Full Stack Developer. Interfaces, systems, and intelligence." />
 </picture>
+</a>
+
+<a href="https://nishan4545.github.io/nishan4545/"><img src="./docs/assets/developer.png" width="420" alt="An illustrated developer at a white desk with a monitor, laptop, and plant." /></a>
 
 **Full Stack Developer at TechSmew Technologies · Coimbatore, India**
 
-<a href="https://www.linkedin.com/in/nishan45/"><img src="./assets/linkedin.svg" alt="Connect with Nishan on LinkedIn" width="218" height="42" /></a>
+[**Explore my interactive profile ↗**](https://nishan4545.github.io/nishan4545/) &nbsp; · &nbsp; [Connect on LinkedIn](https://www.linkedin.com/in/nishan45/)
 
 </div>
 
@@ -20,15 +24,6 @@
 Hi, I'm **Nishan**. I work on full-stack applications and AI document-processing workflows, connecting **React interfaces**, **backend services**, **databases**, and **AI models**.
 
 My experience spans business applications, microservices, OCR, and cloud deployment. I'm interested in the engineering that turns these parts into useful software.
-
-<br />
-
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/workflow-mobile-preview.png" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/workflow-preview.png" />
-  <source media="(max-width: 600px)" srcset="./assets/workflow-mobile.gif" />
-  <img src="./assets/workflow.gif" width="1200" alt="Areas I work across: React interfaces, backend services, AI document processing, and cloud deployment." />
-</picture>
 
 <br />
 
@@ -43,15 +38,6 @@ My experience spans business applications, microservices, OCR, and cloud deploym
 | **Document AI** | PaddleOCR · Qwen2.5-VL · vLLM |
 | **Cloud & delivery** | AWS · Docker · Git · Bash |
 | **AI development tools** | Claude Code · Codex · Google Antigravity |
-
-<br />
-
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/focus-mobile-preview.png" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/focus-preview.png" />
-  <source media="(max-width: 600px)" srcset="./assets/focus-mobile.gif" />
-  <img src="./assets/focus.gif" width="1200" alt="Animated focus panel: full-stack applications, backend microservices, AI document processing, and cloud deployment." />
-</picture>
 
 <br />
 
