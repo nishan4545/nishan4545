@@ -14,7 +14,7 @@
 
 **Full Stack Developer · Coimbatore, India**
 
-[Connect on LinkedIn](https://www.linkedin.com/in/nishan45/)
+<a href="https://www.linkedin.com/in/nishan45/"><img src="./assets/linkedin-connect-light.svg" alt="Connect on LinkedIn" width="254" height="48" /></a>
 
 </div>
 
@@ -43,7 +43,7 @@ I design and build scalable software systems, AI-powered applications, and relia
 
 **Let's talk about software, systems, and AI.**
 
-[Connect on LinkedIn](https://www.linkedin.com/in/nishan45/)
+<a href="https://www.linkedin.com/in/nishan45/"><img src="./assets/linkedin-connect-light.svg" alt="Connect on LinkedIn" width="254" height="48" /></a>
 
 <sub>Nishan · @nishan4545</sub>
 

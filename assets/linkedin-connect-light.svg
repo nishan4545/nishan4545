@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="254" height="48" viewBox="0 0 254 48" role="img" aria-labelledby="title">
+  <title id="title">Connect on LinkedIn</title>
+  <rect x=".5" y=".5" width="253" height="47" rx="8" fill="#0A66C2" stroke="#0A66C2"/>
+  <rect x="16" y="14" width="20" height="20" rx="2" fill="#FFFFFF"/>
+  <path fill="#0A66C2" d="M20 21h3v10h-3zm1.5-5a1.7 1.7 0 1 1 0 3.4 1.7 1.7 0 0 1 0-3.4zM25 21h2.8v1.4c.6-1 1.5-1.6 2.8-1.6 2.4 0 3.4 1.5 3.4 4.2v6h-3v-5.3c0-1.4-.3-2.2-1.5-2.2s-1.5.9-1.5 2.2V31h-3z"/>
+  <text x="49" y="29" fill="#FFFFFF" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">Connect on LinkedIn</text>
+  <path d="M223 29l10-10m-9 0h9v9" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
