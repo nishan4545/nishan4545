@@ -4,7 +4,7 @@
   <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/intro-light-mobile-preview.png" />
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/intro-light-preview.png" />
   <source media="(max-width: 600px)" srcset="./assets/intro-light-mobile.gif" />
-  <img src="./assets/intro-light.gif" width="1200" alt="Hi, I'm Nishan. Full Stack Developer. AI workflows, backend systems, data, and cloud." />
+  <img src="./assets/intro-light.gif" width="1200" alt="Hi, I'm Nishan. AI Full Stack Developer. AI workflows, backend systems, data, and cloud." />
 </picture>
 
 <picture>
