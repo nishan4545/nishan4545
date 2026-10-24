@@ -4,7 +4,7 @@
   <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/intro-light-mobile-preview.png" />
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/intro-light-preview.png" />
   <source media="(max-width: 600px)" srcset="./assets/intro-light-mobile.gif" />
-  <img src="./assets/intro-light.gif" width="1200" alt="Hi, I'm Nishan. AI Full Stack Developer. AI workflows, backend systems, data, and cloud." />
+  <img src="./assets/intro-light.gif" width="1200" alt="Hi, I'm Nishan.  Full Stack Developer. AI workflows, backend systems, data, and cloud." />
 </picture>
 
 <picture>
@@ -12,7 +12,7 @@
   <img src="./assets/developer-hello-work.gif" width="420" alt="A looping 3D-style developer animation: waves Hi, returns to typing, then greets again. White background." />
 </picture>
 
-**Full Stack Developer · Coimbatore, India**
+**AI Full Stack Developer · Coimbatore, India**
 
 <a href="https://www.linkedin.com/in/nishan45/"><img src="./assets/linkedin-connect-light.svg" alt="Connect on LinkedIn" width="254" height="48" /></a>
 
